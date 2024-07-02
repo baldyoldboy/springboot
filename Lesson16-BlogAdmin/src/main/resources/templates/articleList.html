@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>文章列表</title>
+    <link rel="icon" th:href="@{/favicon.ico}" type="image/x-icon">
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" type="text/css">
+    <script type="text/javascript" th:src="@{/js/jQuery.min.js}"></script>
+    <script type="text/javascript" th:src="@{/js/bootstrap.min.js}"></script>
+    <script type="text/javascript">
+        $(function () {
+            //给发布按钮添加点击事件
+            $("#add").click(function (){
+                $("#createArticleModal").modal("show");
+            });
+
+            //给保存创建按钮添加点击事件
+            $("#createArticleBtn").click(function (){
+                $("#create-form").submit();
+            });
+
+            //删除点击事件
+            $("#del").click(function (){
+                //获取复选框的个数
+                var checks = $("tbody input[type='checkbox']:checked");
+                if (checks.length == 0){
+                    alert("请先选择需要删除的记录");
+                    return;
+                }
+
+                if (confirm("您确认删除"+checks.length+"条记录吗？")){
+                    var ids = "";
+                    // $.each(checks,function (index,element){
+                    //     ids.push(element.value)
+                    // });
+                    $.each(checks,function (index,element){
+                        if (index == checks.length-1){
+                            ids += $(element).val();
+                        }else {
+                            ids += $(element).val()+"-";
+                        }
+                    })
+                    //赋值
+                    $("#ids").val(ids);
+                    $("#del-form").submit();
+                }
+            });
+
+            //给略览添加点击事件
+            $("#sel").click(function (){
+                //获取复选框的个数
+                var checks = $("tbody input[type='checkbox']:checked");
+                if (checks.length == 0){
+                    alert("请先选择需要略览的记录");
+                    return;
+                }
+                if (checks.length > 1){
+                    alert("每次只能略览1条记录");
+                    return;
+                }
+                var id= checks[0].value;
+                //发送请求
+                $.ajax({
+                    url:"../article/glance",
+                    data:{
+                        id:id
+                    },
+                    method:"get",
+                    success:function (content){
+                        $("#glanceArticleModal").modal("show");
+                        $("#glance-content").val(content);
+                    }
+                })
+            });
+
+            //给关闭添加点击事件
+            $("#glance-close").click(function (){
+                $("#glanceArticleModal").modal("hide");
+                $("#tbody input[type='checkbox']:checked").prop("checked",false);
+            });
+
+            //给编辑添加点击事件
+            $("#tbody button").click(function (){
+
+
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+
+<!-- 创建文章的模态窗口 -->
+<div class="modal fade" id="createArticleModal" role="dialog">
+    <div class="modal-dialog" role="document" style="width: 40%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h2 class="modal-title" id="myModalLabel1">发布新文章</h2>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form" th:action="@{/article/add}" method="post" id="create-form">
+                    <div class="form-group">
+                        <label for="title" class="col-sm-2 control-label">标题</label>
+                        <div class="col-sm-10" style="width: 300px;">
+                            <input type="text" class="form-control" id="title" name="title">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="summary" class="col-sm-2 control-label">副标题</label>
+                        <div class="col-sm-10" style="width: 496px;">
+                            <input type="text" class="form-control" id="summary" name="summary">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="content" class="col-sm-2 control-label">内容</label>
+                        <div class="col-sm-10" style="width: 81%;">
+                            <textarea style="resize: none;outline: none"  class="form-control" rows="8" id="content" name="content"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary" id="createArticleBtn">发布</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- 略览文章的模态窗口 -->
+<div class="modal fade" id="glanceArticleModal" role="dialog">
+    <div class="modal-dialog" role="document" style="width: 40%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h2 class="modal-title">略览文章</h2>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form" >
+                    <div class="form-group">
+                        <label for="title" class="col-sm-2 control-label">内容</label>
+                        <div class="col-sm-10" style="width: 450px;">
+                            <input type="text" class="form-control" id="glance-content">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" id="glance-close">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="margin-left: 200px">
+    <h1>阅读最多的前10篇文章</h1>
+    <hr/>
+    <div>
+        <td><button id="add">发布新文章</button></td>
+        <td><button id="del">删除文章</button></td>
+        <td><button id="sel">文章概览</button></td>
+    </div>
+    <table style="width: 1050px;line-height: 42px;">
+        <thead>
+        <tr>
+            <th>选择</th>
+            <th>序号</th>
+            <th>标题</th>
+            <th>副标题</th>
+            <th>已读数量</th>
+            <th>发布时间</th>
+            <th>最后修改时间</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+        <tr th:each="article,loopStatus:${articleList}">
+            <th>
+                <input type="checkbox" th:value="${article.id}">
+            </th>
+            <th th:text="${loopStatus.index+1}"></th>
+            <th th:text="${article.title}"></th>
+            <th th:text="${article.summary}"></th>
+            <th th:text="${article.readCount}"></th>
+            <th th:text="${article.createTime}"></th>
+            <th th:text="${article.updateTime}"></th>
+            <th><a th:href="@{/article/edit(id=${article.id})}">编辑</a></th>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+
+<form id="del-form" th:action="@{/article/delete}" method="get">
+    <input id="ids" type="hidden" name="ids">
+</form>
+
+
+</body>
+
+
+</html>

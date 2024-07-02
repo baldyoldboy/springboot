@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60a99f44-adf0-4e92-a76f-383064d1df93" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Lesson10-quick-web">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Record" />
+        <option value="Kotlin Class" />
+        <option value="spring-beans.schema" />
+        <option value="package.json" />
+        <option value="MyBatis的SQL映射文件" />
+        <option value="MyBatis核心配置文件" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/java-17/java/lib/src.zip!/java.base/java/io/BufferedReader.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../AppData/apache-maven-3.9.5/mvn_resp/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar!/jakarta/validation/constraints/NotNull.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../AppData/apache-maven-3.9.5/mvn_resp/org/springframework/boot/spring-boot-autoconfigure/3.2.6/spring-boot-autoconfigure-3.2.6.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../AppData/apache-maven-3.9.5/mvn_resp/org/springframework/boot/spring-boot-autoconfigure/3.3.0/spring-boot-autoconfigure-3.3.0-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../AppData/apache-maven-3.9.5/mvn_resp/org/springframework/boot/spring-boot-autoconfigure/3.3.0/spring-boot-autoconfigure-3.3.0-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../AppData/apache-maven-3.9.5/mvn_resp/org/springframework/spring-tx/6.1.8/spring-tx-6.1.8.jar!/org/springframework/transaction/annotation/Propagation.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../AppData/apache-maven-3.9.5/mvn_resp/org/springframework/spring-tx/6.1.8/spring-tx-6.1.8.jar!/org/springframework/transaction/annotation/Transactional.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../AppData/apache-maven-3.9.5" />
+        <option name="userSettingsFile" value="D:\Users\14036\AppData\apache-maven-3.9.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2hYHncycqIgSOJuDdOSOZxVqEnv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowServices.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Users/14036/IdeaProjects/springBoot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.14648438",
+    "project.structure.side.proportion": "0.2",
+    "service.view.auto.scroll.from.source": "true",
+    "service.view.auto.scroll.to.source": "true",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "GenericSQL"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.user.blogadmin.service.impl" />
+      <recent name="com.user.httpservice.service" />
+      <recent name="com.user.transaction.service.impl" />
+      <recent name="com.user.pk3" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\14036\IdeaProjects\springBoot\Lesson16-BlogAdmin\src\main\resources\static\js" />
+      <recent name="D:\Users\14036\IdeaProjects\springBoot\Lesson16-BlogAdmin\src\main\resources\static\css" />
+      <recent name="D:\Users\14036\IdeaProjects\springBoot\Lesson16-BlogAdmin\src\main\resources\static" />
+      <recent name="D:\Users\14036\IdeaProjects\springBoot\Lesson12-UploadFile\src\main\resources\templates" />
+      <recent name="D:\Users\14036\IdeaProjects\springBoot\Lesson11-servletFilter\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\14036\IdeaProjects\springBoot\Lesson16-BlogAdmin\src\main\resources\static\js" />
+      <recent name="D:\Users\14036\IdeaProjects\springBoot\Lesson16-BlogAdmin\src\main\resources\static" />
+      <recent name="D:\Users\14036\IdeaProjects\springBoot\Lesson13-ExceptionHandler\src\main\resources\static" />
+      <recent name="D:\Users\14036\IdeaProjects\springBoot\Lesson13-ExceptionHandler\src\main\resources\templates" />
+      <recent name="D:\Users\14036\IdeaProjects\springBoot\Lesson12-UploadFile\src\main\resources\static" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.user.crm" />
+      <recent name="com.user" />
+      <recent name="com" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.user.pk1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.user.servletfilter.pojo" />
+      <recent name="com.user.mybatis.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Lesson16BlogAdminApplication">
+    <configuration name="AlbumsServiceTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson15-HttpService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.user.httpservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.user.httpservice" />
+      <option name="MAIN_CLASS_NAME" value="com.user.httpservice.AlbumsServiceTest" />
+      <option name="METHOD_NAME" value="testQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlbumsServiceTest.testQuery1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson15-HttpService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.user.httpservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.user.httpservice" />
+      <option name="MAIN_CLASS_NAME" value="com.user.httpservice.AlbumsServiceTest" />
+      <option name="METHOD_NAME" value="testQuery1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlbumsServiceTest.testQuery2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson15-HttpService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.user.httpservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.user.httpservice" />
+      <option name="MAIN_CLASS_NAME" value="com.user.httpservice.AlbumsServiceTest" />
+      <option name="METHOD_NAME" value="testQuery2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoServiceTest.testDeleteExchange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson15-HttpService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.user.httpservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.user.httpservice" />
+      <option name="MAIN_CLASS_NAME" value="com.user.httpservice.TodoServiceTest" />
+      <option name="METHOD_NAME" value="testDeleteExchange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoServiceTest.testPatchExchange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson15-HttpService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.user.httpservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.user.httpservice" />
+      <option name="MAIN_CLASS_NAME" value="com.user.httpservice.TodoServiceTest" />
+      <option name="METHOD_NAME" value="testPatchExchange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lession02ProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lession02-Project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.project.Lession02ProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lession03singleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lession03-single" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.springboot.Lession03singleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lession05ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lession05-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.config.Lession05ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson05ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lession05-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.config.Lesson05ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson06AutoconfigureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lesson06-autoconfigure" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.autoconfigure.Lesson06AutoconfigureApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson07JdbcTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lesson07-JdbcTemplate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.jdbctemplate.Lesson07JdbcTemplateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson08MyBatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lesson08-MyBatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.mybatis.Lesson08MyBatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson09TransactionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lesson09-transaction" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.transaction.Lesson09TransactionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson10QuickWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lesson10-quick-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.quickweb.Lesson10QuickWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson11ServletFilterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lesson11-servletFilter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.servletfilter.Lesson11ServletFilterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson12UploadFileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lesson12-UploadFile" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.uploadfile.Lesson12UploadFileApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson13ExceptionHandlerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lesson13-ExceptionHandler" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.exceptionhandler.Lesson13ExceptionHandlerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson14ProblemDetailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lesson14-ProblemDetail" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.problemdetail.Lesson14ProblemDetailApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson15HttpServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lesson15-HttpService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.httpservice.Lesson15HttpServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson16BlogAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateResources" />
+      <module name="Lesson16-BlogAdmin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.blogadmin.Lesson16BlogAdminApplication" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson6AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lesson6-aop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.aop.Lesson6AopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.springboot.Springboot003Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot004Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Lession04-package" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.crm.Springboot004Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AlbumsServiceTest.testQuery" />
+      <item itemvalue="JUnit.AlbumsServiceTest.testQuery1" />
+      <item itemvalue="JUnit.AlbumsServiceTest.testQuery2" />
+      <item itemvalue="JUnit.TodoServiceTest.testDeleteExchange" />
+      <item itemvalue="JUnit.TodoServiceTest.testPatchExchange" />
+      <item itemvalue="Spring Boot.Lession02ProjectApplication" />
+      <item itemvalue="Spring Boot.Lession03singleApplication" />
+      <item itemvalue="Spring Boot.Lession05ConfigApplication" />
+      <item itemvalue="Spring Boot.Lesson05ConfigApplication" />
+      <item itemvalue="Spring Boot.Lesson6AopApplication" />
+      <item itemvalue="Spring Boot.Lesson06AutoconfigureApplication" />
+      <item itemvalue="Spring Boot.Lesson07JdbcTemplateApplication" />
+      <item itemvalue="Spring Boot.Lesson08MyBatisApplication" />
+      <item itemvalue="Spring Boot.Lesson09TransactionApplication" />
+      <item itemvalue="Spring Boot.Lesson10QuickWebApplication" />
+      <item itemvalue="Spring Boot.Lesson11ServletFilterApplication" />
+      <item itemvalue="Spring Boot.Lesson12UploadFileApplication" />
+      <item itemvalue="Spring Boot.Lesson13ExceptionHandlerApplication" />
+      <item itemvalue="Spring Boot.Lesson14ProblemDetailApplication" />
+      <item itemvalue="Spring Boot.Lesson15HttpServiceApplication" />
+      <item itemvalue="Spring Boot.Lesson16BlogAdminApplication" />
+      <item itemvalue="Spring Boot.Springboot003Application" />
+      <item itemvalue="Spring Boot.Springboot004Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AlbumsServiceTest.testQuery2" />
+        <item itemvalue="JUnit.AlbumsServiceTest.testQuery1" />
+        <item itemvalue="JUnit.AlbumsServiceTest.testQuery" />
+        <item itemvalue="JUnit.TodoServiceTest.testDeleteExchange" />
+        <item itemvalue="JUnit.TodoServiceTest.testPatchExchange" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="60a99f44-adf0-4e92-a76f-383064d1df93" name="Changes" comment="" />
+      <created>1697102444532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697102444532</updated>
+      <workItem from="1717764260100" duration="966000" />
+      <workItem from="1717765400107" duration="16183000" />
+      <workItem from="1717811873296" duration="6852000" />
+      <workItem from="1717821218734" duration="16665000" />
+      <workItem from="1717857557532" duration="4943000" />
+      <workItem from="1717897782722" duration="20776000" />
+      <workItem from="1717949156214" duration="128000" />
+      <workItem from="1717949307186" duration="6631000" />
+      <workItem from="1717985998389" duration="8206000" />
+      <workItem from="1718092294380" duration="126000" />
+      <workItem from="1718092431498" duration="24723000" />
+      <workItem from="1718174510516" duration="20969000" />
+      <workItem from="1718293563323" duration="6163000" />
+      <workItem from="1718328253121" duration="6117000" />
+      <workItem from="1718366520008" duration="174000" />
+      <workItem from="1718366712059" duration="3903000" />
+      <workItem from="1718380231157" duration="431000" />
+      <workItem from="1718525811953" duration="8833000" />
+      <workItem from="1718697151565" duration="18558000" />
+      <workItem from="1719024434161" duration="33973000" />
+      <workItem from="1719794441637" duration="672000" />
+      <workItem from="1719912825380" duration="982000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Lesson11-servletFilter/src/main/java/com/user/servletfilter/servlet/HelloServlet.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Lesson14-ProblemDetail/src/main/java/com/user/problemdetail/controller/BookController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Lesson16-BlogAdmin/src/main/java/com/user/blogadmin/controller/ArticleController.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Lesson16-BlogAdmin/src/main/java/com/user/blogadmin/service/impl/ArticleServiceImpl.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

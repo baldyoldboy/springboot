@@ -1,0 +1,6 @@
+{
+  "timestamp": "2024-06-14T07:12:23.770+00:00",
+  "status": 404,
+  "error": "Not Found",
+  "path": "/api/book/getBook"
+}

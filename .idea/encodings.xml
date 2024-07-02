@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/Lession01-feature/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lession01-feature/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lession02-Project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lession03-single/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lession04-package/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lession05-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson06-autoconfigure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson07-JdbcTemplate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson08-MyBatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson09-transaction/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson10-quick-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson11-servletFilter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson12-UploadFile/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson13-ExceptionHandler/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson14-ProblemDetail/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson15-HttpService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson16-BlogAdmin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Lesson6-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-004/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

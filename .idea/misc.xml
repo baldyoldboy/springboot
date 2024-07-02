@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Lesson10-quick-web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Lession01-feature/pom.xml" />
+        <option value="$PROJECT_DIR$/Lession02-Project/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-003/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-004/pom.xml" />
+        <option value="$PROJECT_DIR$/Lession04-package/pom.xml" />
+        <option value="$PROJECT_DIR$/Lession03-single/pom.xml" />
+        <option value="$PROJECT_DIR$/Lession05-config/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson06-autoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson6-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson07-JdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson08-MyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson09-transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson10-quick-web/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson11-servletFilter/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson12-UploadFile/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson13-ExceptionHandler/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson14-ProblemDetail/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson15-HttpService/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson16-BlogAdmin/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

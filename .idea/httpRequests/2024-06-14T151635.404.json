@@ -1,0 +1,7 @@
+{
+  "type": "/api/probs/not-found",
+  "title": "图书异常",
+  "status": 404,
+  "detail": "isbn=null->没有此图书",
+  "instance": "/api/book/getBook"
+}

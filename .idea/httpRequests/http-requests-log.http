@@ -1,0 +1,552 @@
+GET http://localhost:8080/api/book/getBook?isbn=B006
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-14T210311.404.json
+
+###
+
+GET http://localhost:8080/api/book/getBook?isbn=B001
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-14T210304.200.json
+
+###
+
+GET http://localhost:8080/api/book/getBook?isbn=B006
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-14T201248.404.json
+
+###
+
+GET http://localhost:8080/api/book/getBook?isbn=B006
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-14T152343.404.json
+
+###
+
+GET http://localhost:8080/api/book/getBook?isbn=B006
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-14T152005.404.json
+
+###
+
+GET http://localhost:8080/api/book/getBook?isbn=B006
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-14T151920.404.json
+
+###
+
+GET http://localhost:8080/api/book/getBook?isbn=B006
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-14T151724.404.json
+
+###
+
+GET http://localhost:8080/api/book/getBook?isbn=B001
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-14T151718.200.json
+
+###
+
+GET http://localhost:8080/api/book/getBook
+Content-Length: 9
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+isbn=B001
+
+<> 2024-06-14T151635.404.json
+
+###
+
+GET http://localhost:8080/api/book/getBook?isbn=B001
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-14T151622.200.json
+
+###
+
+GET http://localhost:8080/api/book/getBook?isbn=B001
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-14T151429.404.json
+
+###
+
+GET http://localhost:8080/api/book/getBook
+Content-Length: 9
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+isbn=B001
+
+<> 2024-06-14T151223.404.json
+
+###
+
+POST http://localhost:8080/order/new
+Content-Type: application/json
+Content-Length: 47
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "",
+  "amount": 32,
+  "userId": 5
+}
+
+<> 2024-06-14T010235.200.json
+
+###
+
+POST http://localhost:8080/order/new
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "name_1d4adbfbfab7",
+  "amount": 32,
+  "userId": 5
+}
+
+<> 2024-06-14T010221.200.txt
+
+###
+
+POST http://localhost:8080/order/new
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "name_1d4adbfbfab7",
+  "amount": 32,
+  "userId": 5
+}
+
+<> 2024-06-14T005919.200.json
+
+###
+
+POST http://localhost:8080/divide
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 14
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+n1=10%0An2%3D2
+
+<> 2024-06-14T002237.404.json
+
+###
+
+POST http://localhost:8080/article/query
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 14
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+loginUser=lisi
+
+<> 2024-06-13T000658.200.txt
+
+###
+
+POST http://localhost:8080/article/delete
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 13
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+loginUser=asd
+
+###
+
+POST http://localhost:8080/article/delete
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 14
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+loginUser=lisi
+
+<> 2024-06-13T000626.200.txt
+
+###
+
+POST http://localhost:8080/article/delete
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 14
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+loginUser=lisi
+
+<> 2024-06-13T000513.200.txt
+
+###
+
+POST http://localhost:8080/article/delete
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 18
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+loginUser=zhangsan
+
+###
+
+POST http://localhost:8080/article/add
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 17
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+loginUser=zhaoliu
+
+###
+
+POST http://localhost:8080/article/add
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 16
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+loginUser=wangwu
+
+<> 2024-06-13T000256.200.txt
+
+###
+
+POST http://localhost:8080/article/query
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 12
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+lonUser=lisi
+
+<> 2024-06-12T235055.200.txt
+
+###
+
+POST http://localhost:8080/article/query
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 15
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+longinUser=lisi
+
+<> 2024-06-12T235050.200.txt
+
+###
+
+POST http://localhost:8080/article/query
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 19
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+longinUser=zhangsan
+
+<> 2024-06-12T234930.200.txt
+
+###
+
+POST http://localhost:8080/article/edit
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 19
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+longinUser=zhangsan
+
+###
+
+POST http://localhost:8080/article/edit
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 15
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+longinUser=lisi
+
+<> 2024-06-12T234808.200.txt
+
+###
+
+POST http://localhost:8080/article/delete
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 19
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+longinUser=zhangsan
+
+###
+
+POST http://localhost:8080/article/delete
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 15
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+longinUser=lisi
+
+<> 2024-06-12T234724.200.txt
+
+###
+
+POST http://localhost:8080/article/delete
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 14
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+loginUser=lisi
+
+<> 2024-06-12T234703.500.json
+
+###
+
+POST http://localhost:8080/article/add
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 17
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+longinUser=wangwu
+
+<> 2024-06-12T234631.200.txt
+
+###
+
+POST http://localhost:8080/article/add
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 19
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+longinUser=zhangsan
+
+###
+
+POST http://localhost:8080/article/add
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 15
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+longinUser=lisi
+
+<> 2024-06-12T234607.200.txt
+
+###
+
+POST http://localhost:8080/article/add
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-12T234410.500.json
+
+###
+
+POST http://localhost:8080/device/add
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 39
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+device=1111%3B2222%3B333%2CNF%3B4%3B561
+
+<> 2024-06-12T223902.200.txt
+
+###
+
+GET http://localhost:8080/product/buy?num=6
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-12T203440.200.json
+
+###
+
+GET http://localhost:8080/product/buy?num=5
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-12T203215.200.json
+
+###
+
+GET http://localhost:8080/product/buy?num=3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-12T203210.200.json
+
+###
+
+GET http://localhost:8080/product/buy?num=15
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-12T203206.200.json
+
+###
+
+GET http://localhost:8080/product/buy?num=5
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-12T203202.200.json
+
+###
+
+GET http://localhost:8080/product/buy?num=5
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-12T203053.200.json
+
+###
+
+GET http://localhost:8080/product/buy?num=4
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-12T203049.200.json
+
+###
+
+GET http://localhost:8080/product/buy?num=10
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-12T203045.200.json
+
+###
+
+GET http://localhost:8080/product/buy?num=10
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-12T203040.200.json
+
+###
+
+GET http://localhost:8080/product/buy?num=4
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-12T202955.200.json
+
+###
+
+GET http://localhost:8080/product/buy?num=6
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-12T202947.200.json
+
+###
+
+GET http://localhost:8080/product/buy?num=4
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-12T202929.200.json
+
+###
+
+GET http://localhost:8080/product/buy?num=4
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-12T202919.200.json
+
+###
+
+GET http://localhost:8080/product/buy?num=10
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-12T202915.200.json
+
+###
+

@@ -1,0 +1,37 @@
+server:
+  #\u670D\u52A1\u5668\u7AEF\u53E3\u53F7
+  port: 8001
+  servlet:
+    encoding:
+      #request,response\u5B57\u7B26\u7F16\u7801
+      charset: utf-8
+      #\u5F3A\u5236request,response\u8BBE\u7F6Echarset\u5B57\u7B26\u7F16\u7801
+      force: true
+    #\u4E0A\u4E0B\u6587\u8BBF\u95EE\u8DEF\u5F84
+    context-path: /api
+
+  tomcat:
+    accesslog:
+      #\u65E5\u5FD7\u8DEF\u5F84
+      directory: D:/logs
+      #\u542F\u7528\u8BBF\u95EE\u65E5\u5FD7
+      enabled: true
+      #\u65E5\u5FD7\u6587\u4EF6\u540D\u524D\u7F00
+      prefix: access_log
+      #\u65E5\u5FD7\u6587\u4EF6\u540D\u79F0\u540E\u7F00
+      suffix: .log
+      #\u65E5\u5FD7\u6587\u4EF6\u65E5\u671F\u65F6\u95F4
+      file-date-format: .yyyy-MM-dd
+    #post \u8BF7\u6C42\u5185\u5BB9\u6700\u5927\u503C\uFF0C\u9ED8\u8BA42M
+    max-http-form-post-size: 4000000
+    #\u670D\u52A1\u5668\u6700\u5927\u8FDE\u63A5\u6570 \u9ED8\u8BA48192
+    max-connections: 9000
+spring:
+  mvc:
+    servlet:
+      #dispathcerservlet\u7684\u8BBF\u95EE\u8DEF\u5F84
+      path: /course
+    format:
+      #\u65F6\u95F4\u683C\u5F0F\uFF0C\u53EF\u4EE5\u5728\u63A5\u53D7\u8BF7\u6C42\u53C2\u6570\u4F7F\u7528
+      date-time: yyyy-MM-dd HH:mm:ss
+

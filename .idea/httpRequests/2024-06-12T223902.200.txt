@@ -1,0 +1,1 @@
+接收到的设备数据：DeviceInfo(item1=1111, item2=2222, item3=333,NF, item4=4, item5=561)

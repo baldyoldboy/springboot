@@ -1,0 +1,50 @@
+
+app:
+  name: Lesson05
+  owner: 李四
+  port: 8080
+  security:
+    username: 黎明
+    password: 123456
+
+security:
+  username: 王阳
+  password: 654321
+
+#数组 列表
+names:
+  - 张三
+  - 李四
+  - 王五
+
+servers:
+  - title: 华北服务器
+    ip: 129.34.56.233
+  - title: 东南服务器
+    ip: 21.32.123.134
+
+#map
+users:
+  user1:
+    name: 张三
+    sex: 男
+    age: 21
+  user2:
+    name: 李四
+    sex: 男
+    age: 34
+
+
+
+
+myapp:
+  memo: 这是application中的配置
+spring:
+  config:
+    #导入多个配置文件 “,”作为分隔符
+    import: config/db.yml,config/redis.yml
+  #激活环境，与on-profile名称保持一致
+  profiles:
+    active: dev
+
+

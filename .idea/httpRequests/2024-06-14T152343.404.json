@@ -1,0 +1,9 @@
+{
+  "type": "/api/probs/not-found",
+  "title": "图书异常",
+  "status": 404,
+  "detail": "isbn=B006->没有此图书",
+  "instance": "/api/book/getBook",
+  "客服邮箱": "service@qq.com",
+  "timestamp": "2024-06-14T07:23:43.544931800Z"
+}

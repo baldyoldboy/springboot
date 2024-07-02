@@ -1,0 +1,9 @@
+{
+  "type": "/api/probs/not-found",
+  "title": "书籍异常",
+  "status": 404,
+  "detail": "图书的isbn可能不存在。。。。",
+  "instance": "/api/book/getBook",
+  "严重程度": "低",
+  "客户邮箱": "service@qq.com"
+}
