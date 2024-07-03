@@ -13,6 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public String hello(){
+        System.out.println("==================");
+
         return "欢迎来到SpringBoot";
+
+
+
+
     }
 }
