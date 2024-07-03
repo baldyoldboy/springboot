@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60a99f44-adf0-4e92-a76f-383064d1df93" name="Changes" comment="one" />
+    <list default="true" id="60a99f44-adf0-4e92-a76f-383064d1df93" name="Changes" comment="添加了ignore和修改了Lesson04的文件内容">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lession04-package/src/main/java/com/user/crm/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lession04-package/src/main/java/com/user/crm/controller/HelloController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +98,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Users/14036/IdeaProjects/springBoot",
+    "last_opened_file_path": "C:/Users/14036/.ssh/id_rsa",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -106,7 +109,7 @@
     "project.structure.side.proportion": "0.2",
     "service.view.auto.scroll.from.source": "true",
     "service.view.auto.scroll.to.source": "true",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "vcs.Subversion.SSH",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -139,11 +142,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\14036\IdeaProjects\springBoot" />
       <recent name="D:\Users\14036\IdeaProjects\springBoot\Lesson16-BlogAdmin\src\main\resources\static\js" />
       <recent name="D:\Users\14036\IdeaProjects\springBoot\Lesson16-BlogAdmin\src\main\resources\static" />
       <recent name="D:\Users\14036\IdeaProjects\springBoot\Lesson13-ExceptionHandler\src\main\resources\static" />
       <recent name="D:\Users\14036\IdeaProjects\springBoot\Lesson13-ExceptionHandler\src\main\resources\templates" />
-      <recent name="D:\Users\14036\IdeaProjects\springBoot\Lesson12-UploadFile\src\main\resources\static" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.user.crm" />
@@ -403,6 +406,11 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\14036\AppData\Roaming\Subversion</configuration>
+    <option name="sshConnectionType" value="PRIVATE_KEY" />
+    <option name="sshPrivateKeyPath" value="C:\Users\14036\.ssh\id_rsa" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="60a99f44-adf0-4e92-a76f-383064d1df93" name="Changes" comment="" />
@@ -431,7 +439,8 @@
       <workItem from="1718697151565" duration="18558000" />
       <workItem from="1719024434161" duration="33973000" />
       <workItem from="1719794441637" duration="672000" />
-      <workItem from="1719912825380" duration="1310000" />
+      <workItem from="1719912825380" duration="2530000" />
+      <workItem from="1719973532482" duration="2828000" />
     </task>
     <task id="LOCAL-00001" summary="one">
       <option name="closed" value="true" />
@@ -441,15 +450,58 @@
       <option name="project" value="LOCAL" />
       <updated>1719926020443</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="one">
+      <option name="closed" value="true" />
+      <created>1719926268564</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719926268564</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加了ignore和修改了Lesson04的文件内容">
+      <option name="closed" value="true" />
+      <created>1719974844722</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719974844722</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="one" />
-    <option name="LAST_COMMIT_MESSAGE" value="one" />
+    <MESSAGE value="添加了ignore和修改了Lesson04的文件内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了ignore和修改了Lesson04的文件内容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
