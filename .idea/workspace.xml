@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60a99f44-adf0-4e92-a76f-383064d1df93" name="Changes" comment="one" />
+    <list default="true" id="60a99f44-adf0-4e92-a76f-383064d1df93" name="Changes" comment="one">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lession04-package/src/main/java/com/user/crm/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lession04-package/src/main/java/com/user/crm/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,12 +57,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/java-17/java/lib/src.zip!/java.base/java/io/BufferedReader.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../AppData/apache-maven-3.9.5/mvn_resp/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar!/jakarta/validation/constraints/NotNull.class" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../AppData/apache-maven-3.9.5/mvn_resp/org/springframework/boot/spring-boot-autoconfigure/3.2.6/spring-boot-autoconfigure-3.2.6.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../AppData/apache-maven-3.9.5/mvn_resp/org/springframework/boot/spring-boot-autoconfigure/3.3.0/spring-boot-autoconfigure-3.3.0-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../AppData/apache-maven-3.9.5/mvn_resp/org/springframework/boot/spring-boot-autoconfigure/3.3.0/spring-boot-autoconfigure-3.3.0-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../AppData/apache-maven-3.9.5/mvn_resp/org/springframework/spring-tx/6.1.8/spring-tx-6.1.8.jar!/org/springframework/transaction/annotation/Propagation.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../AppData/apache-maven-3.9.5/mvn_resp/org/springframework/spring-tx/6.1.8/spring-tx-6.1.8.jar!/org/springframework/transaction/annotation/Transactional.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/AppData/apache-maven-3.9.5/mvn_resp/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar!/jakarta/validation/constraints/NotNull.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/AppData/apache-maven-3.9.5/mvn_resp/org/springframework/boot/spring-boot-autoconfigure/3.2.6/spring-boot-autoconfigure-3.2.6.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/AppData/apache-maven-3.9.5/mvn_resp/org/springframework/boot/spring-boot-autoconfigure/3.3.0/spring-boot-autoconfigure-3.3.0-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/AppData/apache-maven-3.9.5/mvn_resp/org/springframework/boot/spring-boot-autoconfigure/3.3.0/spring-boot-autoconfigure-3.3.0-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/AppData/apache-maven-3.9.5/mvn_resp/org/springframework/spring-tx/6.1.8/spring-tx-6.1.8.jar!/org/springframework/transaction/annotation/Propagation.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/AppData/apache-maven-3.9.5/mvn_resp/org/springframework/spring-tx/6.1.8/spring-tx-6.1.8.jar!/org/springframework/transaction/annotation/Transactional.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,7 +70,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../AppData/apache-maven-3.9.5" />
+        <option name="mavenHome" value="$USER_HOME$/AppData/apache-maven-3.9.5" />
         <option name="userSettingsFile" value="D:\Users\14036\AppData\apache-maven-3.9.5\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -79,45 +84,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowServices.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "android.gradle.sync.needed": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Users/14036/IdeaProjects/springBoot",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.14648438",
-    "project.structure.side.proportion": "0.2",
-    "service.view.auto.scroll.from.source": "true",
-    "service.view.auto.scroll.to.source": "true",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowServices.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/14036/IdeaProjects/springBoot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.14648438&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;service.view.auto.scroll.from.source&quot;: &quot;true&quot;,
+    &quot;service.view.auto.scroll.to.source&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
-      "GenericSQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;GenericSQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -432,6 +437,7 @@
       <workItem from="1719024434161" duration="33973000" />
       <workItem from="1719794441637" duration="672000" />
       <workItem from="1719912825380" duration="1310000" />
+      <workItem from="1719976112024" duration="85000" />
     </task>
     <task id="LOCAL-00001" summary="one">
       <option name="closed" value="true" />
@@ -446,6 +452,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="one" />
